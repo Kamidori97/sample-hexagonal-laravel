@@ -3,6 +3,7 @@
 namespace App\Hexagonal\Post\Application\Services;
 
 use App\Hexagonal\Post\Domain\Repositories\PostRepositoryInterface;
+use App\Hexagonal\Post\Domain\Exception\RandomException;
 
 class CreatePostService
 {
